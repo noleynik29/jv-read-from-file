@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class FileWork {
     public String[] readFromFile(String fileName) {
         //write your code here
-        String[] result = null;
+        String[] result;
         int wordCount = 0;
         int arrayCount = 0;
         File file = new File(fileName);
